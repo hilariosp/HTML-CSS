@@ -1,0 +1,233 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h3{
+
+    text-align: center;
+    margin: 5px;
+
+}
+
+/*Menu Superior*/
+
+header{
+
+    background-color: #3F5183;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img{
+
+    width: 7.5%;
+
+}
+
+nav{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+a:link, a:visited {
+	text-decoration: none;
+    color: black;
+	}
+a:hover {
+	text-decoration: none;
+	color: #212121;
+	}
+a:active {
+	text-decoration: none;
+	}
+
+/*Conteúdo*/
+
+section{
+
+    padding-top: 10px;
+    height: 500px;
+    text-align: center;
+    background-color: #6D7FAA;
+}
+
+aside{
+
+    padding-top: 10px;
+    height: 500px;
+    text-align: center;
+    background-color: #7e91b0;
+
+}
+
+/**Index**/
+
+.main{
+
+    display: flex;
+}
+
+.main > section{
+
+    flex: 4;
+}
+
+.main > aside{
+
+    flex: 1;
+}
+
+/**Aluno**/
+
+.aluno{
+
+    padding: 50px 500px;
+    background-color:#6D7FAA;
+
+}
+
+/**Professor**/
+
+.professor{
+
+    background-color:#6D7FAA;
+    padding: 50px 500px;
+
+}
+
+/**Listaaluno**/
+
+.listaaluno{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 200px;
+
+}
+
+/**Listaprofessor**/
+
+.listaprofessor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+
+/*Rodapé*/
+
+footer{
+
+    background-color: #B8B8F3;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/*Formulários*/
+
+.p1, .a1, .p2{
+
+    margin-top: 10px;
+    background-color: #B8B8F3;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+input[type=text], select {
+
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=number], select {
+    width: 29%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=password], select {
+
+    width: 50%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+select{
+
+    width: 33%;
+}
+  
+
+button {
+
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+/*Tabelas*/
+
+table{
+
+    margin-top: 25px;
+    border-collapse: collapse;
+    width: 90%;
+    
+}
+
+td{
+
+    background-color: #ffffff40;
+    border: 2px solid white;
+    width: 320px;
+    height: 30px;
+    padding: 15px;
+}
+
+th{
+
+    background-color: #3F5183;
+    border: 2px solid #B8B8F3;
+    width: 320px;
+    height: 30px;
+    padding: 15px;
+}
+
+.espacamento{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img.jpg" alt="Twitter">
+        <nav>
+            <a href="aluno.html">Aluno</a>
+            <a href="listaaluno.html">Lista de Alunos</a>
+            <a href="index.html">Página Principal</a>
+            <a href="professor.html">Professor</a>   
+            <a href="listaprofessor.html">Lista de Professores</a> 
+       </nav>
+        <img src="img.jpg" alt="Twitter">
+    </header>
+        <article class="aluno">
+
+            <div class="a1">
+            <form class="alunoform" action="aluno.html">
+
+                <h3>Cadastro de Aluno</h3>
+
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="E-mail" required>
+                <div class="espacamento">
+                <label for="idade">Idade</label>
+                <input type="number" name="idade" id="idade" placeholder="Idade" required>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required>
+            </div>
+                <button>Cadastrar</button>
+
+            </form>
+        </div>
+        </article>
+        <footer>Ata</footer>
+</body>
+</html>
